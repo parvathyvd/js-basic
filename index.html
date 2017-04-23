@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Javascript Examples</title>
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+
+  <body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h1>What Can JavaScript Do?</h1>
+        <p>JavaScript can change HTML attributes.</p>
+        <p>In this case JavaScript changes the src (source) attribute of an image.</p>
+        <button class="btn btn-outline-info" onclick="bulbon()">Turn on the light</button>
+        <img id="myImage" src="img/light-bulb-off.png" style="width:100px">
+        <button class="btn btn-outline-info" onclick="bulboff()">Turn off the light</button>
+      </div>
+        <div class="col-sm-6">
+          <h1>addEventListener() </h1>
+          <p>This example uses the addEventListener() method to attach a click event to a button.</p>
+          <div id="demo1">You can view the date here just by a button click</div>
+          <button class="btn btn-outline-info" id="myBtn">Try it</button>
+          <p>Here is the date. Oh! you have to click on the button</p>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>Javascript Alert</h1>
+          <p>This example shows the pop up alert function when we call the function by clicking the button</p>
+          <button class="btn btn-outline-info" onclick="alertFn()">Alert</button>
+        </div>
+        <div class="col-sm-6">
+          <h1>Alter Text in a paragarph</h1>
+          <div id="demo2">This content will alter after button click</div>
+          <p>Look at the above div element - It will change if you click the button below.
+             You can alter the content</p>
+          <button class="btn btn-outline-info" onclick="altertext()">Alter Text</button>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-6">
+          <h1>Javascript Animation</h1>
+          <div id="animation-container">
+            <div id="animation">
+
+            </div>
+          </div>
+          <p> Click the "Animate" button to see the result </p>
+          <button class="btn btn-outline-info" onclick="move()" role="button"> Animate </button>
+        </div>
+        <div class="col-sm-6">
+          <h1>Javascript Time</h1>
+          <div id= "demo3"> </div>
+          <p> Click the "Stop Time" button to pause the time right there </p>
+          <button class="btn btn-outline-info" onclick="stopTime()" role="button"> Stop Time </button>
+        </div>
+      </div>
+      <hr>
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="custom.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+#demo2 {
+  color: #159208;
+  padding: 1rem 0;
+}
+
+h1 {
+  color: #64057f;
+}
+
+#animation-container {
+  width: 20rem;
+  height: 20rem;
+  background-color: #30ade7;
+  position: relative;
+}
+
+#animation {
+  width: 5rem;
+  height: 5rem;
+  background-color: #64057f;
+  position: absolute;
+}
+
+/*# sourceMappingURL=style.css.map */
